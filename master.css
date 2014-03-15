@@ -1,0 +1,51 @@
+body {
+   padding: 0;
+   margin: 0;
+   font-size: 16px;
+}
+
+body > * {
+   display: block;
+   width: 11em;
+   margin: 20% auto 0;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+
+.login-form .label-text {
+   width: 100%;
+}
+
+.login-form input {
+   margin: 0.5em 0em 1em;
+   width: 100%;
+   text-align: center;
+}
+
+.login-form input[type="submit"] {
+   background-color: #2B5CB6;
+}
+
+.puzzle-category {
+   margin: 0.5em 1em 1em;
+}
+
+.puzzle-category .header {
+   font-size: 1.2em;
+   font-weight: bold;
+   background-color: #134480;
+}
+
+.puzzle-category .puzzle {
+   border: 1px solid darkgray;
+   padding: 0.25em 0.5em;
+   background-color: #2588FF;
+}
+.puzzle-category .puzzle:hover {
+   background-color: #1C65BE;
+}
